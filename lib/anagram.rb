@@ -6,4 +6,9 @@ class Anagram
     @word = word
   end
 
+  def matches
+    arr = []
+    matches.any?{|words| str.include?(words)}
+    words
+  end
 end
