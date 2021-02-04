@@ -9,6 +9,9 @@ class Anagram
   def matches
     arr = []
     matches.any?{|words| str.include?(words)}
-    words
+    if word == words
+      word
+    else
+    end
   end
 end
