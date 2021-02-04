@@ -11,7 +11,7 @@ class Anagram
     array.any? do |words|
       if @word == words
         arr << words
-
+      end
       end
     end
 end
