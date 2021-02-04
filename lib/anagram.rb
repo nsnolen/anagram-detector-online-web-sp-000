@@ -7,7 +7,11 @@ class Anagram
   end
 
   def match(array)
-    array.any?{|words| word.include?(words)}
-    words
+    arr = []
+    array.any?{|words| 
+      if @word == words
+        arr << words 
+      }
+    
     end
 end
