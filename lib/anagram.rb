@@ -6,7 +6,7 @@ class Anagram
     @word = word
   end
 
-  def matches(array)
+  def match(array)
     array.any?{|words| str.include?(words)}
     end
 end
