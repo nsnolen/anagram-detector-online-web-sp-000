@@ -8,6 +8,6 @@ class Anagram
 
   def match(array)
     array.any?{|words| word.include?(words)}
-    word
+    words
     end
 end
