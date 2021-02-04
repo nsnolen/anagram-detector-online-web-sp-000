@@ -8,10 +8,10 @@ class Anagram
 
   def match(array)
     arr = []
-    array.any?{|words| 
+    array.any?{|words|
       if @word == words
-        arr << words 
+        arr << words
       }
-    
+
     end
 end
